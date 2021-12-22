@@ -1,0 +1,69 @@
+
+---Downloaded files---
+The import files for: Business were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://itcareer.app
+Data file = /home/itcapp/public_html/wp-content/plugins/keydesign-addon/theme/admin/demos/business/demo-content.xml
+Widget file = /home/itcapp/public_html/wp-content/plugins/keydesign-addon/theme/admin/demos/general/widgets.wie
+Customizer file = not defined!
+Redux files:
+redux_ThemeTek -> /home/itcapp/public_html/wp-content/plugins/keydesign-addon/theme/admin/demos/business/theme-options.json 
+
+
+------
+New AJAX call!
+
+
+---pt-ocdi/before_widgets_import---
+
+
+---Importing widgets---
+Blog Sidebar : 
+
+Search - No Title - Imported
+Categories - No Title - Imported
+Tag Cloud - No Title - Imported
+Social Icons - Social - Imported
+
+Shop Sidebar : 
+
+Product Search - Search Products - Imported
+Product Categories - Product categories - Imported
+Filter Products by Price - Filter by price - Imported
+Product Tag Cloud - Product tags - Imported
+Products by Rating list - Top rated products - Imported
+
+Page Sidebar : 
+
+Search - Search site - Imported
+Navigation Menu - Navigation - Imported
+Categories - No Title - Imported
+Tag Cloud - Tags - Imported
+Text - About us - Imported
+Social Icons - Social - Imported
+Text - Subscribe to newsletter - Imported
+
+Footer first widget area : 
+
+Navigation Menu - About - Imported
+
+Footer second widget area : 
+
+Navigation Menu - Additional links - Imported
+
+Footer third widget area : 
+
+Categories - Categories - Imported
+
+Footer fourth widget area : 
+
+Text - Ekko - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: redux_ThemeTek finished successfully!
+
+---pt-ocdi/after_import---
+ Slider processed
