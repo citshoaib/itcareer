@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="51" viewBox="0 0 79 51">
+  <defs>
+    <filter id="Path_684" x="0" y="0" width="79" height="51" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="FB_Button" transform="translate(4.5 4.5)">
+    <g transform="matrix(1, 0, 0, 1, -4.5, -4.5)" filter="url(#Path_684)">
+      <path id="Path_684-2" data-name="Path 684" d="M21,0H49a21,21,0,0,1,0,42H21A21,21,0,0,1,21,0Z" transform="translate(4.5 4.5)" fill="#fff"/>
+    </g>
+    <path id="Path_685" data-name="Path 685" d="M49.262,34.678H45.724V47.642H40.362V34.678h-2.55V30.122h2.55V27.173c0-2.108,1-5.41,5.409-5.41l3.972.017V26.2H46.861a1.091,1.091,0,0,0-1.137,1.242v2.682h4.007Z" transform="translate(-8.812 -13.763)" fill="#3b5998"/>
+  </g>
+</svg>
