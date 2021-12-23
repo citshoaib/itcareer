@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="51" viewBox="0 0 79 51">
+  <defs>
+    <filter id="Rectangle_1485" x="0" y="0" width="79" height="51" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Google_Button" transform="translate(4.5 4.5)">
+    <g transform="matrix(1, 0, 0, 1, -4.5, -4.5)" filter="url(#Rectangle_1485)">
+      <rect id="Rectangle_1485-2" data-name="Rectangle 1485" width="70" height="42" rx="21" transform="translate(4.5 4.5)" fill="#fff"/>
+    </g>
+    <g id="Group_2246" data-name="Group 2246" transform="translate(4141.674 5595.476)">
+      <g id="logo_googleg_48dp" transform="translate(-4119.674 -5587.476)">
+        <path id="Shape" d="M21.483,10.023a14.949,14.949,0,0,0-.236-2.66H9v5.03h7A5.982,5.982,0,0,1,13.4,16.318v3.262h4.2a12.681,12.681,0,0,0,3.877-9.557Z" transform="translate(4.003 3.275)" fill="#4285f4" fill-rule="evenodd"/>
+        <path id="Shape-2" data-name="Shape" d="M12.577,21.242a12.414,12.414,0,0,0,8.606-3.15l-4.2-3.262A7.845,7.845,0,0,1,5.3,10.71H.957v3.369a13,13,0,0,0,11.62,7.164Z" transform="translate(0.426 4.764)" fill="#34a853" fill-rule="evenodd"/>
+        <path id="Shape-3" data-name="Shape" d="M5.727,13.268a7.687,7.687,0,0,1,0-4.941V4.958H1.383a13.019,13.019,0,0,0,0,11.679l4.344-3.369Z" transform="translate(0 2.205)" fill="#fbbc05" fill-rule="evenodd"/>
+        <path id="Shape-4" data-name="Shape" d="M12.577,5.172a7.025,7.025,0,0,1,4.971,1.945l3.729-3.73A12.5,12.5,0,0,0,12.577,0,13,13,0,0,0,.957,7.163L5.3,10.532a7.749,7.749,0,0,1,7.276-5.361Z" transform="translate(0.426)" fill="#ea4335" fill-rule="evenodd"/>
+        <path id="Shape-5" data-name="Shape" d="M0,0H26.006V26.006H0Z" fill="none" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>
