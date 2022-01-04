@@ -43,7 +43,7 @@ $que_select = $conn->query($select);
 <tbody>
 <?php
 
-$i = $limit*($page-1)+1;
+$i = '1';
 $emp = $que_select->fetch_array();
 
 $conn->select_db("itcapp_website");
@@ -72,18 +72,11 @@ $can_pro_d = $que_select_pro_d->fetch_array();
 <?php }else{?>
 <td align="center"><?php echo ucfirst($can_pro['first_name']).' '.ucfirst($can_pro['middel_name']).' '.ucfirst($can_pro['last_name']); ?></td>
 <?php } ?>
-<td align="center"><?php echo $can_pro['email'];?></td>
+<td align="center"><?php echo $can_pro_d['email'];?></td>
 
 <td align="center"><?php echo $can_pro_d['candidate_password']; ?></td>
 
 
-<?php  
-$conn->select_db("itcapp_website");
-
-$select_one = $conn->query("SELECT * FROM sedna_operator_request_consultants_reg WHERE can_user_id = '".$emp['candidates_userid']."' ");
- $fetch2_one=$select_one->fetch_array();
- 
-?>
 
 <td>
 <a href="?page=edit&id=<?php echo $can_pro['reg_id'];?>" class="btn btn-default btn-sm btn-icon btn-primary">Edit</a>

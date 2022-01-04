@@ -2,14 +2,12 @@
 include('../../config/config.php');
 include('../../config/function.php');
 //echo $reg_id;
-
+error_reporting(E_ALL);
 if(isset($_REQUEST['update']))
 {
+  
 
-/*echo "<pre>";
-print_r($_POST);
-die;
-*/
+
 
 
   $social_media_name= $_POST['social_media_name'];
@@ -17,6 +15,7 @@ die;
 
   
    $reg_id= $_POST['reg_id'];
+   $emp_type= $_POST['emp_type'];
    $first_name= $_POST['first_name'];
    $last_name= $_POST['last_name'];
     $caste= $_POST['caste'];
@@ -41,7 +40,7 @@ die;
   $employer_company=$_POST['employer_company'];
   $employer_email=$_POST['employer_email'];
   $employer_number=$_POST['employer_number'];
-  $preferred_location=$_POST['preferred_location'];
+  $preferred_location=implode(',',$_POST['preferred_location']);
    $employment_type=implode(',',$_POST['employment_type']);
    
    $salary= $_POST['salary'];
@@ -215,7 +214,7 @@ $extracted_plaintext = fread($fh, $textLength);
     
     ///$conn->query("update sebna_registration set first_name='$first_name', last_name='$last_name'  where id='$reg_id'");
     
-   $conn->query("update sebna_profile_tbl  set caste='$caste',gender='$gender', remark='$remark', resume_data='$skill_resumeData', profile_image='$new', language_know='$language', first_name='$first_name', middel_name='$middel_name', last_name='$last_name',city='$city', country='$country',state='$state',contact='$contact',zipcode='$postal_code',employment_type='$employment_type',work_authorization='$work_authorization',employer_name='$employer_name',employer_company='$employer_company',employer_email='$employer_email',employer_number='$employer_number',preferred_location='$preferred_location',travel='$travel',experience='$experience',position='$position', salary='$salary',searchable='$searchable',relocate='$relocate',security='$security',hourly_rate='$hourly_rate'   where reg_id='$reg_id'");
+   $conn->query("update sebna_profile_tbl  set emp_typ='$emp_type',caste='$caste',gender='$gender', remark='$remark', resume_data='$skill_resumeData', profile_image='$new', language_know='$language', first_name='$first_name', middel_name='$middel_name', last_name='$last_name',city='$city', country='$country',state='$state',contact='$contact',zipcode='$postal_code',employment_type='$employment_type',work_authorization='$work_authorization',employer_name='$employer_name',employer_company='$employer_company',employer_email='$employer_email',employer_number='$employer_number',preferred_location='$preferred_location',travel='$travel',experience='$experience',position='$position', salary='$salary',searchable='$searchable',relocate='$relocate',security='$security',hourly_rate='$hourly_rate'   where reg_id='$reg_id'");
      $conn->query("DELETE FROM sedna_skills WHERE reg_id=$reg_id");
     if(count($_POST['skill_name'])>0)
   {
